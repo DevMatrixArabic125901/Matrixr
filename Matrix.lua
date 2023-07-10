@@ -5853,7 +5853,7 @@ heen = {
 ," كرامتك رفعهت بزبل פَــبي ."
 ," مو صوجك صوج الكواد الزمك جهاز ."
 ," لفارغ استجن . "
-," لتتلزك بتاجراسك ."
+," لتتلزك بتاج راسك ."
 ," ملطلط دي ."
 };
 sendheen = heen[math.random(#heen)]
@@ -6035,7 +6035,7 @@ if text == 'حبك' or text == 'احبك' then
 if not Redis:get(TheMatrix.."Matrix:Sasa:Jeka"..msg_chat_id) then
 return LuaTele.sendText(msg_chat_id,msg_id,"* *","md",true)  
 end
-return LuaTele.sendText(msg_chat_id,msg_id,'*اموت بيڪك يࢪوحي 🥳💘*',"md",true)  
+return LuaTele.sendText(msg_chat_id,msg_id,'*اموت بيڪك يࢪوحي*',"md",true)  
 end
 --------------------------------------------------------------------------------------------------------------
 if text == "قفل التكرار" then 
@@ -11230,8 +11230,8 @@ decdecb = Redis:get("boob"..fsvhhh) or 0
 deccde2 = decdecb + UserNameyy
 Redis:set("boob"..fsvhhh , math.floor(deccde2))
 
-LuaTele.sendText(msg.chat_id,msg.id, "حوالة صادرة من بنك ايفان\n\nالمرسل : "..news.."\nرقم الحساب : `"..cccc.."`\nنوع البطاقة : "..uuuu.."\nالمستلم : "..newss.."\nرقم الحساب : `"..text.."`\nنوع البطاقة : "..fsvhh.."\nخصمت 10% رسوم تحويل\nالمبلغ : "..convert_mony.." دولار 💰","md",true)
-LuaTele.sendText(fsvhhh,0, "حوالة واردة من بنك ايفان\n\nالمرسل : "..news.."\nرقم الحساب : `"..cccc.."`\nنوع البطاقة : "..uuuu.."\nالمبلغ : "..convert_mony.." دولار 💰","md",true)
+LuaTele.sendText(msg.chat_id,msg.id, "حوالة صادرة من بنك ماتركس\n\nالمرسل : "..news.."\nرقم الحساب : `"..cccc.."`\nنوع البطاقة : "..uuuu.."\nالمستلم : "..newss.."\nرقم الحساب : `"..text.."`\nنوع البطاقة : "..fsvhh.."\nخصمت 10% رسوم تحويل\nالمبلغ : "..convert_mony.." دولار 💰","md",true)
+LuaTele.sendText(fsvhhh,0, "حوالة واردة من بنك ماتركس\n\nالمرسل : "..news.."\nرقم الحساب : `"..cccc.."`\nنوع البطاقة : "..uuuu.."\nالمبلغ : "..convert_mony.." دولار 💰","md",true)
 Redis:del("trans" .. msg.chat_id .. ":" .. msg.sender_id.user_id) 
 Redis:del("transn" .. msg.sender_id.user_id)
 else
@@ -11269,7 +11269,7 @@ local bank_users = Redis:smembers("booob")
 if #bank_users == 0 then
 return LuaTele.sendText(msg.chat_id,msg.id,"↯︙لا يوجد حسابات في البنك","md",true)
 end
-top_mony = "توب اغنى 25 شخص في بنك ايفان :\nــــــــــــــــــــــــــــــــــــــــــــــــــ\n"
+top_mony = "توب اغنى 25 شخص في بنك ماتركس :\nــــــــــــــــــــــــــــــــــــــــــــــــــ\n"
 mony_list = {}
 for k,v in pairs(bank_users) do
 local mony = Redis:get("boob"..v)
@@ -11333,7 +11333,7 @@ local ty_users = Redis:smembers("rrfffid")
 if #ty_users == 0 then
 return LuaTele.sendText(msg.chat_id,msg.id,"↯︙لا يوجد احد","md",true)
 end
-ty_anubis = "توب 20 شخص يسلبون فلوس في بنك ايفان :\nــــــــــــــــــــــــــــــــــــــــــــــــــ\n"
+ty_anubis = "توب 20 شخص يسلبون فلوس في بنك ماتركس :\nــــــــــــــــــــــــــــــــــــــــــــــــــ\n"
 ty_list = {}
 for k,v in pairs(ty_users) do
 local mony = Redis:get("rrfff"..v)
@@ -13298,10 +13298,10 @@ local TestText = "↯︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = ' ‹ 𓏺 𝖲𝗒𝖾𝖽 𝖧𝖺ider . .', url = "https://t.me/FFlXlX"}
+{text = 'ꪎ 𓏺 𝖠𝗁𝖬𝖾𝖣 𓏺 ꪎ', url = "https://t.me/FFlXlX"}
 },
 {
-{text = '‹ source matrix ›', url='https://t.me/source_matrixr'},
+{text = 'ꪎ 𓏺 source matrix 𓏺 ꪎ', url='https://t.me/source_matrixr'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -13311,7 +13311,7 @@ local TestText = "- معلومات مبࢪمج السورس : \\nn: name Dev . [
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '‹ 𓏺 TuOFe Al - ALhalafi . ', url = "https://t.me/FFlXlX"}
+{text = 'ꪎ 𓏺 𝖠𝗁𝖬𝖾𝖣 𓏺 ꪎ', url = "https://t.me/FFlXlX"}
 },
 {
 {text = '‹ source matrix ›', url='https://t.me/source_matrixr'},
@@ -14292,7 +14292,6 @@ LuaTele.sendText(msg_chat_id,msg_id,[[
  ~ فيديو ~ بصمه ~ صوت ~ رساله ›
 --  --  --  --  --  --  --  --
 ↯︙للخروج ارسل ↫ ‹ الغاء ›
-✓
 ]],"md",true)  
 return false end
 if text=="‹ اذاعة بالتثبيت ›" and msg.DevelopersAS then 
@@ -14309,7 +14308,6 @@ LuaTele.sendText(msg_chat_id,msg_id,[[
  ~ فيديو ~ بصمه ~ صوت ~ رساله ›
 --  --  --  --  --  --  --  --
 ↯︙للخروج ارسل ↫ ‹ الغاء ›
-✓
 ]],"md",true)  
 return false end
 if text=="‹ اذاعة توجيه للمجموعات ›" and msg.DevelopersAS then 
@@ -14344,23 +14342,23 @@ local list = Redis:smembers(TheMatrix.."Matrix:List:Rd:Sudo")
 text = "\n↯︙قائمة ردود المطور ↫ ⤈\n--  --  --  --  --  --  --  --\n"
 for k,v in pairs(list) do
 if Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:Gif"..v) then
-db = "متحركه 🎭"
+db = "متحركه"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:vico"..v) then
-db = "بصمه 📢"
+db = "بصمه"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:stekr"..v) then
-db = "ملصق 🃏"
+db = "ملصق"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:Text"..v) then
-db = "رساله ✉"
+db = "رساله"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:Photo"..v) then
-db = "صوره 🎇"
+db = "صوره"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:Video"..v) then
-db = "فيديو 📹"
+db = "فيديو"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:File"..v) then
-db = "ملف 📁"
+db = "ملف"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:Audio"..v) then
-db = "اغنيه ??"
+db = "اغنيه"
 elseif Redis:get(TheMatrix.."Matrix:Add:Rd:Sudo:video_note"..v) then
-db = "بصمه فيديو 🎥"
+db = "بصمه فيديو"
 end
 text = text..""..k.." - ‹ "..v.." › ↫ ‹"..db.."›\n"
 end
@@ -14594,7 +14592,7 @@ elseif text == "↫ معاني الاسماء ⌁" then LuaTele.sendText(msg_cha
 elseif text == "↫ حساب العمر ⌁" then LuaTele.sendText(msg_chat_id,msg_id,'↯︙ من خلال البوت يمكنك حساب عمرك \n↯︙ فقط قم بارسال امر احسب + مواليدك الى البوت \n↯︙ بالتنسيق التالي مثال : احسب 2000/7/24','md')
 end
 if text == '↫  السورس⌁' or text == '↫  السورس⌁' or text == 'قناة السورس' then
-photo = "https://t.me/Rasulm12/41"
+photo = "https://t.me/photoitrix/2"
 local tt =[[
 [‹ source matrix ›](https://t.me/source_matrixr) .
 ]]
@@ -15223,7 +15221,7 @@ if #list == 0 then
 t = "↯︙لا توجد ميديا في المجموعة"
 end
 return LuaTele.editMessageText(ChatId,Msg_id,t,"md",true) end end
--- LaR
+-- DaR
 if Text and Text:match('(%d+)/Song') then
 local UserId = Text:match('(%d+)/Song')
 if tonumber(IdUser) == tonumber(UserId) then
@@ -15692,7 +15690,7 @@ if tonumber(IdUser) == tonumber(UserId) then
 local list = Redis:smembers(TheMatrix.."Matrix11:List:Rd:Sudo")
 LaR = "\n↯︙قائمة الردود المتعدده العامه ↫ ⤈\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ \n"
 for k,v in pairs(list) do
-db = "رساله ✉"
+db = "رساله"
 LaR = LaR..""..k.." - ‹ `"..v.."` › ↫ ‹"..db.."›\n"
 end
 if #list == 0 then
@@ -15723,14 +15721,14 @@ local UserId = Text:match('(%d+)/DevIDClose')
 if tonumber(IdUser) == tonumber(UserId) then
 Redis:del(TheMatrix.."Matrix:AddSudosNew"..data.chat_id)
 return LuaTele.editMessageText(ChatId,Msg_id,'↯︙تم الغاء الامر',"md",true) end end
--- Lar --
+-- Dar --
 if Text and Text:match('(%d+)/Rdlar') then
 local UserId = Text:match('(%d+)/Rdlar')
 if tonumber(IdUser) == tonumber(UserId) then 
 local list = Redis:smembers(TheMatrix.."Matrix1:List:Rd:Sudo"..data.chat_id)
 LaR = "\n↯︙قائمة الردود المتعدده ↫ ⤈\n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ \n"
 for k,v in pairs(list) do
-db = "رساله ✉"
+db = "رساله"
 LaR = LaR..""..k.." - ‹ `"..v.."` › ↫ ‹"..db.."›\n"
 end
 if #list == 0 then
